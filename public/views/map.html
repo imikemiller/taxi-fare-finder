@@ -1,0 +1,21 @@
+<div id="map">
+    <ui-gmap-google-map center='map.center' zoom='map.zoom' events="map.events">
+        <ui-gmap-markers models="events"
+                         coords="'coords'"
+                         idkey="'id'"
+                         options="'options'"
+                        >
+        </ui-gmap-markers>
+    </ui-gmap-google-map>
+</div>
+<style>
+    #map{
+        height:100%;
+    }
+    .angular-google-map{
+        height:100%;
+    }
+    .angular-google-map-container {
+        height: 100%;
+    }
+</style>
